@@ -1,18 +1,10 @@
 import React from "react";
-
-
+import Header from "../../components/Header/Header";
 
 const Home: React.FunctionComponent = () => {
     return (<React.Fragment>
         <div className="page">
-            <div className="Header">
-                <div className="logo">
-
-                </div>
-                <div className="menu">
-
-                </div>
-            </div>
+            <Header />
             <div className="section">
                 <div className="title"></div>
                 <div className="middle-title"></div>
