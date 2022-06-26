@@ -11,6 +11,9 @@ export const LogoWrapper = styled.div`
 export const HeaderBar = styled.div`
     display: flex;
     padding:30px 60px;
+    .logo {
+      width:100%;
+    }
     .menu {
 
     }

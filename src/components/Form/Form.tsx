@@ -9,7 +9,9 @@ const Form:React.FunctionComponent <FormProps>= ({title,children}) => {
         <div className="title">
          {title}
         </div>
+        <div className="form_content">
         {children}
+        </div>
     </FormElement>
 }
 
